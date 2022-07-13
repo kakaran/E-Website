@@ -1,13 +1,14 @@
 import React from 'react'
 import "./Card.css"
+import { Hover } from './Hover'
 export default function Cards(props) {
   return (
     <>
         <div className="cardContanier">
             <a href="">
-            <img className = "image"src={props.cardimge} alt="product image" />
+            <img className = "image"src={props.cardimge} alt="product image"/>
             <div className="cardHeading">
-                <h3>{props.cardheading}</h3>
+                <h3>{props.cardheading }</h3>
             </div>
             </a>
         </div>

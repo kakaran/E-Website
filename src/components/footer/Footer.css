@@ -1,0 +1,146 @@
+
+.footerContainer
+{
+    border: 1px solid black;
+    background-image: url("https://cdn.shopify.com/s/files/1/0283/5820/t/9/assets/footer.jpg?31526322267640576");
+}
+
+.listofContainer
+{
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction:row;
+    /* align-items: center; */
+    justify-content: space-evenly;
+    padding: 0px 100px;
+    padding : 70px 0px;
+}
+
+.logo
+{
+    width:300px
+}
+.newsletter
+{
+    width:300px;
+    display: flex;
+    flex-direction: column;
+}
+.newsletter p
+{
+    font-style: italic;
+    color: #BFC0B1;
+    font-size: 14px;
+
+}
+
+.newsletter h2
+{
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #A4A073;
+    margin-bottom: 20px;
+}
+
+.links
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.links h3{
+    text-transform: uppercase;
+    font-size: 20px;
+    color: #A4A073;
+    margin-bottom: 20px;
+
+}
+
+.links a
+{
+    color: #BFC0B1;
+    font-size: 14px;
+    padding: 7px 0px;
+}
+
+.gettouch
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gettouch h2
+{
+    font-size: 20px;
+    color: #A4A073;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+
+}
+
+.gettouch p 
+{
+    color: #BFC0B1;
+    font-size: 14px;
+    margin-bottom: 35px;
+}
+
+.gettouch p span
+{
+    color: #BFC0B1;
+    text-decoration: underline;
+}
+
+.listsvg
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width:100px
+}
+.listsvg .svg {
+    width:20px;
+    height: 20px;
+    fill: #BFC0B1;
+    margin-bottom: 30px;
+}
+
+.paymentContainer
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.paymentContainer h3 {
+    color: #BFC0B1;
+}
+.paymentContainer p
+{
+    color: #BFC0B1;
+}
+.paymentcards
+{
+    display: flex;
+    flex-direction: row;
+    width:300px;
+    justify-content: space-between;
+}
+.paymentcards img 
+{
+    width :40px;
+    padding: 20px 0px;
+    
+}
+
+.paymentcopy
+{
+    display: flex;
+    /* flex-direction: row; */
+}
+
+.paymentsvg
+{
+    width:10px
+}

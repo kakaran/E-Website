@@ -1,0 +1,18 @@
+.HomeBarContainer
+{
+    display: flex;
+    flex-direction: row;
+}
+
+.HomeBarContainer img{
+    width: 33.2%
+}
+
+.centerImage
+{
+    width: 504px
+}
+
+.HomeBarContainer a{
+    width:540.362px
+}

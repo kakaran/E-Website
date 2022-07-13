@@ -20,7 +20,7 @@ export default function FeaturedProduct() {
             return(
               <div className="cardgaping">
               <Cards 
-              cardimge = {val.cardimage}
+              cardimge = {val.cardimage }
               cardheading = {val.cardHeading}/>
               </div>
             );

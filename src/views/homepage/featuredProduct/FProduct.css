@@ -1,12 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;1,300&display=swap');
-
-
-*{
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
-}
-
 .headingContanier
 {
     display: flex;
@@ -43,5 +35,6 @@
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    margin :0px 80px;
+    padding :0px 80px;
+    /* background-color: #FCF9F4; */
 }

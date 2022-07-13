@@ -31,8 +31,5 @@ export  const CardDeatil = [
         cardimage : "https://cdn.shopify.com/s/files/1/0156/0327/products/DSC05281_large.jpg?v=1637274045",
         cardHeading : "Float Knife Set",
     },
-    {
-        cardimage : "	https://cdn.shopify.com/s/files/1/0156/0327/products/safety-matches_large.jpg?v=1540404105",
-        cardHeading : "Safety Matches",
-    },
+    
 ]
