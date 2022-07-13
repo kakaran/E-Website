@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;1,300&display=swap');
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.headingContanier
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top:70px;
+    margin-bottom:40px;
+}
+
+.Heading
+{
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: #646569;
+    font-family: 'Merriweather', serif;
+}
+
+.HeadingButton button
+{
+    text-transform: uppercase;
+    font-size: 10px;
+    border: 1px solid #646569;
+    word-spacing: 3px;
+    margin-top: 20px;
+    padding: 6px 20px;
+    font-family: 'Merriweather',serif;
+    cursor: pointer;
+    color: #646569;
+}
+
+.cardsHolder
+{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin :0px 80px;
+}
