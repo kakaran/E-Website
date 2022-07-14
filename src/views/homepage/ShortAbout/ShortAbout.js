@@ -1,8 +1,8 @@
 import React from "react";
-import "./About.css";
+import "./ShortAbout.css";
 import pic from "../../../assets/Images/AboutImage/About.jpg";
 
-export default function About() {
+export default function ShortAbout() {
   return (
     <>
       <div className="aboutContanier">
