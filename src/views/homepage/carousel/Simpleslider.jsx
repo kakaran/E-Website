@@ -17,12 +17,13 @@ export default function Simpleslider()
     return (
       <div className="App" >
 
-        <Slider {...settings}>
+        <Slider {...settings} key = "Carousellinks.id">
           {Carousellinks.map((photo)=>
           {
+  
             return(
               <div>
-              <img  className="imgHeight" width="100%" src={photo.imgaddress}  alt="this is phto"/>
+              <img  className="imgHeight" width="100%" src={photo.imgaddress}  alt="this is pho"/>
               </div>
             );
           })}

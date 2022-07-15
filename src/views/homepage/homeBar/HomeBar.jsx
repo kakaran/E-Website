@@ -7,9 +7,9 @@ export default function HomeBar() {
   return (
     <>
         <div className="HomeBarContainer">
-            <img src={first} alt="image" />
-            <img src={second} alt="image" />
-            <img src={third} alt="image" />
+            <img src={first} alt="pho" />
+            <img src={second} alt="pho" />
+            <img src={third} alt="pho" />
         </div>
     </>
   )

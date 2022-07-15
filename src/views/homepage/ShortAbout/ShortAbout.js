@@ -7,7 +7,7 @@ export default function ShortAbout() {
     <>
       <div className="aboutContanier">
         <div className="aboutImage">
-          <img src={pic} alt="Image" />
+          <img src={pic} alt="pho" />
         </div>
         <div className="aboutinformation">
           <h2 className="title">About Us</h2>
@@ -17,9 +17,7 @@ export default function ShortAbout() {
             Ozark Mountains, celebrating the region’s unique history of outdoor
             recreation, sporting and folklore.
           </p>
-          <a href="">
             <button className="aboutbutton">Read our Story</button>
-          </a>
         </div>
       </div>
     </>
