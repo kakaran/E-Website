@@ -1,6 +1,7 @@
 import HomePage from "./views/homepage/Homepage";
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
+
 import { BrowserRouter as Router, Routes, Route} from "react-router-dom";
 import './App.css';
 import Login from "./views/login/Login";
