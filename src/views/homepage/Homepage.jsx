@@ -5,7 +5,9 @@ import Footer from "../../components/footer/Footer";
 import Navbared from "../../components/navbar/Navbared";
 import ShortAbout from "./ShortAbout/ShortAbout";
 export default function HomePage()
-{
+{   
+
+    
     
     return(
         <>

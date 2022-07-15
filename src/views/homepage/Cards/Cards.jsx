@@ -12,7 +12,7 @@ export default function Cards(props) {
             <div className="cardHeading">
                 <h3>{props.cardheading }</h3>
             </div>
-              </a   >
+              </a >
             <div className="counter">
               <button onClick={()=>
               {
